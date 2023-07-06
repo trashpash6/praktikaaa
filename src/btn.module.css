@@ -1,0 +1,16 @@
+.block{
+    width: 300px;
+    height: 100px;
+    margin: 30px auto;
+}
+.style{
+    font-size: 50px;
+    padding: 8px 15px;
+    margin-left: 3%;
+    border: 3px solid #1100f8;
+    border-radius: 25px;
+    transition: border .2s linear;
+}
+.style:hover{
+    border: 3px solid #f800d7;
+}
