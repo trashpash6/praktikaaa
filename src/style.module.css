@@ -1,0 +1,256 @@
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+.header{
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+}
+.header__inner{
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    position: relative;
+}
+.header__inner::after{
+    display: block;
+    content: "";
+    width: 100%;
+    height: 3px;
+    background-color: 
+    #919090;
+    border-radius: 25px;
+    position: absolute;
+    margin-top: 10px;
+}
+.nav__link{
+    display: inline-block;
+    vertical-align: text-top;
+    margin: 22px;
+    color: #919090;
+    text-decoration: none;
+}
+.nav__link:hover{
+    color: #070707;
+    transition: color .3s;
+}
+div[class*=box] {
+    height: 33.33%;
+    width: 100%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box-1 { background-color: #fff; }
+.btn {
+    padding-top: 10px;
+    line-height: 50px;
+    height: 50px;
+    text-align: center;
+    width: 150px;
+    cursor: pointer;
+}
+.btn_one {
+    color: black;
+    transition: all 0.15s;
+    position: relative;
+}
+.btn_one span {
+    transition: all 0.15s;
+}
+.btn_one::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0;
+    transition: all 0.3s;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-top-color: rgba(0, 0, 0, 0.5);
+    border-bottom-color: rgba(0, 0, 0, 0.5);
+    transform: scale(0.1, 1);
+}
+.btn_one:hover span {
+    letter-spacing: 2px;
+}
+.btn_one:hover::before {
+    opacity: 1; 
+    transform: scale(1, 1); 
+}
+.btn_one::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    transition: all 0.3s;
+    background-color: rgba(255,255,255,0.1);
+}
+.btn_one:hover::after {
+    opacity: 0; 
+    transform: scale(0.1, 1);
+}
+.container{
+    margin: 0 auto;
+    width: 100%;
+    max-width: 940px;
+}
+.my_photo{
+    width: 940px;
+    height: 387px;
+    left: 2256px;
+    top: 276.94px;
+}
+.size{
+    width: 100%;
+    height: 670px;
+}
+.intro__up{
+    display: flex;
+    padding-top: 22px;
+}
+.name{
+    width: 160px;
+    height: 150px;
+    font-size: 58px;
+    line-height: 1.2;
+    font-weight: bold;
+}
+.inform{
+    margin: auto;
+    padding-top: 60px;
+    line-height: 0.4;
+    font-size: 18px;
+}
+.size_image{
+    width: 940px;
+    height: 510px;
+    left: 2256px;
+    top: 276.94px;
+    margin: 0 auto;
+}
+.size_image_for_intro{
+    width: 940px;
+    height: 387px;
+    left: 2256px;
+    top: 276.94px;
+    margin: 0 auto;
+}
+.size_image_contacts{
+    width: 342.1840515136719px;
+    height: 40.91845703125px;
+    top: 4515.783203125px;
+    left: 552.2919921875px;
+}
+.size_image_for_my_program{
+    width: 1000px;
+    height: 210px;
+    margin: 0 auto;
+    padding-left: 20%;
+}
+.size_image_for_my_program_item{
+    width: 170px;
+    height: 207px;
+    margin-left: 10px;
+}
+.size_image_for_portfolio{
+    width: 936.2395629882812px;
+    height: 510px;
+    top: 2087px;
+    left: 257.71337890625px;
+}
+.section_size{
+    background-color: #F6F6F6;
+    width: 100%;
+    height: 506px;
+    display: block;
+}
+.section_inner{
+    margin: 0 auto;
+    height: 100%;
+}
+.section_mod{
+    height: 700px;
+}
+.section_mod_end{
+    height: 900px;
+}
+.section_mod_contacts{
+    height: 500px;
+}
+.section_mod_color{
+    background-color: #fff;
+}
+.title_settings{
+    padding-top: 70px;
+    width: 500px;
+    height: 43px;
+    font-size: 34px;
+    font-weight: bold;
+    line-height: 0.9;
+    margin: 0 auto;
+    text-align: center;
+}
+.text_settings{
+    width: 485px;
+    height: 250px;
+    text-align: center;
+    margin: 0 auto;
+    line-height: 0.4;
+}
+.text_mod{
+    height: 120px;
+}
+.text_item{
+    height: 50px;
+    padding-top: 30px;
+}
+.text_item_end{
+    color: #919090;
+    font-size: 14px;
+} 
+.my_contacts{
+    text-align: center;
+}
+.portfolio_size{
+    background-color: #f6f6f6;
+    width: 100%;
+    height: 800px;
+    display: block;
+}
+.portfolio_inner{
+    margin: 0 auto;
+    height: 100%;
+}
+.text_mt30{
+    margin-top: 40px;
+}
+.size{
+    margin-top: 30px;
+}
+.btn_message{
+    display: inline-block;
+    vertical-align: top;
+    padding: 10px 15px;
+    border: 3px solid black;
+    border-radius: 25px;
+    color: white;
+    background: black;
+    text-decoration: none;
+    transition: color .2s linear;
+}
+.btn_message:hover{
+    background-color: white;
+    color: black;
+}
